@@ -1,0 +1,10 @@
+.reports-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.reports-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}

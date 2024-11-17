@@ -1,0 +1,7 @@
+services:
+  transcoder-service:
+    build: .
+    ports:
+      - "5002:5002"
+    environment:
+      - QUT_USERNAME=${QUT_USERNAME}

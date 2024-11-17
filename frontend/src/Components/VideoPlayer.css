@@ -1,0 +1,51 @@
+.video-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.title-quality-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.user-date-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.date {
+    text-align: right;
+    margin-right: 2.5%;
+}
+
+.delete-video {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+
+}
+
+.delete-video button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,130 @@
+.weather-reports-container {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.dash {
+    color: #1986cb;
+    letter-spacing: -5px;
+}
+
+.resorts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.resort-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.resorts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.add-resort-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 440px;
+    border: 2px dashed #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: #666666;
+    font-size: 48px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-resort-card:hover {
+    background-color: #e0e0e0;
+}
+
+.plus-icon {
+    font-size: 100px;
+    line-height: 1;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.close {
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.modal-content button {
+    margin-top: 10px;
+    padding: 10px 40px;
+    background-color: #1986cb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #0e71af;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.coords-container {
+    display: flex;
+    gap: 10px;
+}
+
+.coords-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.resorts p {
+    text-align: center;
+    width: 100%;
+}

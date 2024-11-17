@@ -1,0 +1,68 @@
+/* Individual weather card */
+.resort-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+    width: 300px; /* Fixed width for cards */
+    height: 440px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.weather-info {
+    margin-top: 16px;
+}
+
+.weather-condition img {
+    width: 100px;
+    height: auto;
+}
+
+.weather-condition p {
+    margin: 8px 0;
+}
+
+.forecast-navigation {
+    position: absolute;
+    top: 397px;
+    display: flex;
+    justify-content: space-between;
+    gap: 190px;
+    align-items: center;
+    text-align: center;
+}
+
+.forecast-navigation button {
+    background-color: #1986cb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.forecast-navigation button:hover {
+    background-color: #0e71af;
+}
+
+.forecast-navigation button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.delete button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
